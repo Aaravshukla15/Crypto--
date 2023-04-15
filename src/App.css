@@ -1,0 +1,101 @@
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.t-logo {
+  height: 8vmin;
+  pointer-events: none;
+  margin-top: 20px;
+  background-color: #ffff;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .t-logo {
+    animation: t-logo-spin infinite 20s linear;
+  }
+}
+
+.title{
+  color: rgb(255, 173, 31);
+  margin-top: 0%;
+  margin-bottom: 0.2%;
+}
+.titled {
+  color: rgb(245, 229, 200);
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.titlep {
+  color: rgb(255, 173, 31);
+  margin-top: 0.5%;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  border: solid 1.5px rgb(255, 173, 31);
+  border-radius: 20px;
+}
+
+table {
+  width: 100px;
+  border-collapse: separate ;
+  border-spacing: 0 1rem;
+}
+
+thead{
+
+  color:rgb(255, 173, 31);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+tbody > tr {
+  text-align: center;
+}
+
+.rank{
+  font-weight: bold;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+.pri{
+  padding-left: 5px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+
+@keyframes t-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
